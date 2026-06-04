@@ -1,0 +1,9 @@
+SELECT 
+  Q17EDUCATION AS education_level,
+  COUNT(*) AS total_people,
+  SUM(CASE WHEN Q19ATTE = 2 THEN 1 ELSE 0 END) AS unemployed,
+  ROUND(100.0 * SUM(CASE WHEN Q19ATTE = 2 THEN 1 ELSE 0 END) / COUNT(*), 1) AS unemployment_rate
+FROM lfs_q4_2020
+WHERE Q17EDUCATION IS NOT NULL
+GROUP BY Q17EDUCATION
+ORDER BY unemployment_rate DESC;
