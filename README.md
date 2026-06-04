@@ -1,4 +1,4 @@
-# SA Youth Unemployment- SQL Analysis
+# SA Youth Unemployment - SQL Analysis
 
 ## Overview
 SQL analysis of South African unemployment patterns using 
@@ -65,3 +65,10 @@ Statistics South Africa — QLFS Q4 2020 (statssa.gov.za)
 - 02_youth_unemployment_by_province.sql
 - 03_unemployment_by_education.sql
 - 04_high_risk_segments.sql
+- - 05_cte_unemployment_by_province.sql - CTE with province ranking
+ ## Results
+- result_01_province.csv
+- result_02_youth.csv
+- result_03_education.csv
+- result_04_high_risk.csv
+- result_05_cte_province.csv   
