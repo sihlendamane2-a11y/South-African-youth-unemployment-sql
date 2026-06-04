@@ -1,4 +1,4 @@
-# SA Youth Unemployment — SQL Analysis
+# SA Youth Unemployment- SQL Analysis
 
 ## Overview
 SQL analysis of South African unemployment patterns using 
@@ -6,11 +6,14 @@ StatsSA Labour Force Survey Q4 2020 data. Explores the impact
 of COVID-19 on employment across provinces and education levels.
 
 ## Key Findings
-- Province 2 showed 100% unemployment across multiple 
-  education levels in Q4 2020
-- Overall unemployment rates exceeded 60% in most provinces
-- Education level alone did not protect against unemployment 
-  during the COVID-19 period
+- Eastern Cape (Province 2) recorded 100% unemployment 
+  across multiple education levels in Q4 2020
+- Province 4 (KwaZulu-Natal) had the highest overall 
+  unemployment rate at 81.1%
+- Unemployment rates exceeded 95% across most education 
+  levels, showing COVID-19 made education level irrelevant 
+  as a protection against job loss
+
   ## Recommendations
 
 1. Emergency youth employment programmes: With unemployment 
@@ -42,6 +45,14 @@ of COVID-19 on employment across provinces and education levels.
    Q4 2020 vs Q4 2023 unemployment figures to measure 
    whether recovery has been equitable across provinces or 
    whether some regions remain structurally depressed.
+   
+   ## Limitations
+- Province codes are used in place of province names as the 
+  LFS dataset uses numeric coding
+- Q4 2020 represents a COVID-19 peak period and findings 
+  should not be generalised to structural unemployment 
+  patterns outside this period
+- Sample weights were not applied in this analysis
 
 ## Tools
 SQLite · DB Browser for SQLite · SQL
